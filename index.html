@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Wordle">
+    <meta name="author" content="Filippos Obrijanu">
+    <link rel="icon" type="image/x-icon" href="assets/icons/icon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Password</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="maincon">
+        <h1 class="top_text">Guess the Password</h1>
+        <p class="main_p">Given a list of potential passwords, try to guess the correct one.
+        <br>
+        If you're wrong, we'll tell you how many letters are correct.</p>
+        <button onclick="StartGame()" class="main_b">Start</button>
+    </div>
+    <div class="seccon">
+        <p id="0" onClick="clickk(this.id);" class="sec_p"></p><br>
+        <p id="1" onClick="clickk(this.id);" class="sec_p"></p><br>
+        <p id="2" onClick="clickk(this.id);" class="sec_p"></p><br>
+        <p id="3" onClick="clickk(this.id);" class="sec_p"></p><br>
+        <p id="4" onClick="clickk(this.id);" class="sec_p"></p><br>
+        <p id="5" onClick="clickk(this.id);" class="sec_p"></p><br>
+        <p id="6" onClick="clickk(this.id);" class="sec_p"></p><br>
+        <p id="7" onClick="clickk(this.id);" class="sec_p"></p><br>
+        <p id="8" onClick="clickk(this.id);" class="sec_p"></p><br>
+        <p id="9" onClick="clickk(this.id);" class="sec_p"></p><br><br><br>
+        <p class="sec_pp">Click on a word to make a guess.</p><br>
+        <p id="gueesesrem" class="sec_pp">Guesses remaining: 3.</p><br>
+        <p id="a10" class="sec_pp">Click on a word to make a guess.</p>
+    </div>
+   
+    <script src="features/main.js"></script>
+</body>
+</html>

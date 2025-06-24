@@ -1,0 +1,105 @@
+@media only screen and (min-width: 375px){
+    @font-face {
+        font-family: Main;
+        src: url(../fonts/ByteBounce.ttf);
+    }
+    html{
+
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+    *{
+
+        font-family: Main;
+        margin: 0;
+        
+    }
+    .maincon{
+
+        display: none;
+    }
+    body{
+        padding: 5em 5em;
+        scroll-behavior: smooth;
+        background-color: black;
+        overflow-x: hidden;
+        color:rgb(30, 255, 0);
+        text-align: center;
+
+    }
+    .top_text{
+
+        font-size: 4em;
+    }
+    .main_p{
+        margin-top: 1em;
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+    .sec_pp{
+
+        font-size: 2.5em;
+
+    }
+    .sec_p{
+
+        font-size: 2em;
+        cursor: pointer;
+        transition: scale ease 0.05s;
+    }
+    .sec_p:hover{
+
+        scale: 1.1;
+        color: rgb(255, 251, 0);
+        
+    }
+
+    .main_b{
+        border-radius: 0.25em;
+        margin-top: 1.5em;
+        color: rgb(30, 255, 0);
+        background-color: transparent;
+        padding: 0.3em 0.4em;
+        border: solid 0.1em rgb(30, 255, 0);
+        font-size: 3em;
+        cursor: pointer;
+        transition: backgroundcolor ease 0.8s, color ease 0.3s;
+    }
+    .main_b:hover{
+        color: black;
+        background-color: rgb(30, 255, 0);
+    }
+    .seccon{
+
+        display: none;
+    }
+    #a10{
+
+        display: none;
+    }
+ }
+ @media only screen and (min-width: 700px){
+
+    body{
+        padding: 5em 7em;
+    }
+    .top_text{
+
+        font-size: 8em;
+    }
+    .main_p{
+        font-size: 2.5em;
+    }
+
+ }
+ @media only screen and (min-width: 900px){
+
+    body{
+        padding: 5em 7em;
+    }
+    .top_text{
+
+        font-size: 10em;
+    }
+
+ }
