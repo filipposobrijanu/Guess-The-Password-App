@@ -3,6 +3,7 @@
 
 Guess The Password App is a **fast-paced guessing game** that challenges players to uncover a secret password hidden among seven possible words. Each round, the system randomly selects a target word, and players must **deduce the correct answer** through strategic guessing and process of elimination. With **limited attempts** and no hints, the game tests your intuition, vocabulary, and logical reasoning under pressure.
 
+![screenshot](Images/1.PNG)
 ---
 
 ## 🛠️ Technologies Used
@@ -11,6 +12,8 @@ Guess The Password App is a **fast-paced guessing game** that challenges players
 - **Bootstrap 5** for responsive UI
 - **VS Code** (development IDE)
 
+![screenshot](Images/2.PNG)
+![screenshot](Images/3.PNG)
 ---
 
 ## 📄 License
