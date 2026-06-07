@@ -1,33 +1,35 @@
+# Guess The Password App
 
-# 🔒 Guess The Password App
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Project-success?style=for-the-badge)](https://guess-the-password-app.netlify.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-Guess The Password App is a **fast-paced guessing game** that challenges players to uncover a secret password hidden among seven possible words. Each round, the system randomly selects a target word, and players must **deduce the correct answer** through strategic guessing and process of elimination. With **limited attempts** and no hints, the game tests your intuition, vocabulary, and logical reasoning under pressure.
+A fast-paced, logic-based guessing game that challenges users to identify a secret password from a selection of seven candidates. Designed to test intuition and deduction skills, the game features a clean, responsive interface that tracks progress and limits attempts.
 
-![screenshot](Images/1.PNG)
----
+![Guess The Password App Screenshot](Images/1.PNG)
 
-## 🛠️ Technologies Used
+## ✨ Core Features
 
-- **HTML5, CSS3, JavaScript**
-- **Bootstrap 5** for responsive UI
-- **VS Code** (development IDE)
+*   **Logic-Based Gameplay:** Players must utilize process-of-elimination and logical reasoning to identify the correct target word.
+*   **Dynamic Round Generation:** Each round randomly selects a new target word and a set of candidates to ensure unique gameplay.
+*   **Performance Tracking:** Manages limited attempts and game state to maintain a high-pressure, competitive environment.
+*   **Responsive UI:** Mobile-friendly design built with Bootstrap 5 for a seamless experience on any device.
 
-![screenshot](Images/2.PNG)
-![screenshot](Images/3.PNG)
----
+## 🛠️ Built With
 
-## 📄 License
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5" />
+</p>
 
-This project is open-source.
+![Game Interface](Images/2.PNG)
+![Game Mechanics](Images/3.PNG)
 
----
+## 🚀 Getting Started (Local Development)
 
-## 🤝 Contributing
+To run this project locally:
 
-Pull requests are welcome! Please follow standard GitHub flow and keep the code clean and documented.
-
----
-
-## 📬 Contact
-
-For questions, contact me at [obrizanou@gmail.com](mailto:obrizanou@gmail.com) or open an issue.
+1. **Clone the repository:**
+```bash
+   git clone [https://github.com/filipposobrijanu/Guess-The-Password-App.git](https://github.com/filipposobrijanu/Guess-The-Password-App.git)
